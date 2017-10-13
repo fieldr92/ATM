@@ -113,10 +113,9 @@ function withdrawCash(person) {
       return err;
     }
     if (parseInt(result.amount, 10) <= _userBudget) {
-      _runningTotal += parseInt(result.amount, 10);
       _fundsRemain = _userBudget - parseInt(result.amount, 10);
       person.balance = _fundsRemain;
-      console.log('£' + result.amount + ' taken out\nYou\'ve spent: ' + '£' + _runningTotal + '\nYou have left: £' + _fundsRemain + '\nPress \'a\' for previous options\nPress \'q\' to return card');
+      console.log('£' + result.amount + ' taken out\nYou have left: £' + _fundsRemain + '\nPress \'a\' for previous options\nPress \'q\' to return card');
       withdrawCash(person);
     } else if (result.amount === 'a'){
       giveOptions1(person);
