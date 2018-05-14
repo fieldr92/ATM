@@ -5,16 +5,16 @@
 - to install packages, run `npm install` from the folder directory in terminal
 - once installed, run `node atm-starter.js` to run the app
 
-"Login" details of users below:
+### "Login" details of users below:
 
-longnum: ralph
-PINnum: getmoney
+longnum: ralph<br />
+PINnum: getmoney<br />
 
-longnum: james
-PINnum: doastold
+longnum: james<br />
+PINnum: doastold<br />
 
-longnum: pedro
-PINnum: hasababy
+longnum: pedro<br />
+PINnum: hasababy<br />
 
-longnum: jackie.chan
-PINnum: KEEYAH!
+longnum: jackie.chan<br />
+PINnum: KEEYAH!<br />
